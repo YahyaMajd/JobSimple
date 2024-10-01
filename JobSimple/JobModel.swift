@@ -7,13 +7,14 @@
 
 import Foundation
 struct Job: Identifiable {
-    var id = UUID()  // Unique ID for each job
+    var id : String  // Unique ID for each job
     var title: String
     var company: String
     var link: String
-    var status: JobStatus  // Enum for the status
+    var status: JobStatus?  // Enum for the status
     var description: String
-    var contact: ContactInfo?  // Optional contact info
+    var contactType: String
+    var contactValue: String
 }
 
 enum JobStatus {

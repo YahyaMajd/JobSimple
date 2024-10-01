@@ -46,6 +46,7 @@
 		78C100A82CAB8B0300DE625D /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 78C100A72CAB8B0300DE625D /* FirebaseRemoteConfigSwift */; };
 		78C100AA2CAB8B0300DE625D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 78C100A92CAB8B0300DE625D /* FirebaseStorage */; };
 		78C100AC2CAB8B0300DE625D /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 78C100AB2CAB8B0300DE625D /* FirebaseStorageCombine-Community */; };
+		78C100AE2CAB94B700DE625D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78C100AD2CAB94B600DE625D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		78C1006E2CAB8A1D00DE625D /* JobModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
 		78C1006F2CAB8A1E00DE625D /* LoginSignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
 		78C100702CAB8A1E00DE625D /* AddJobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJobView.swift; sourceTree = "<group>"; };
+		78C100AD2CAB94B600DE625D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				78C100412CAB88CD00DE625D /* JobSimpleApp.swift */,
 				78C100432CAB88CD00DE625D /* ContentView.swift */,
+				78C100AD2CAB94B600DE625D /* GoogleService-Info.plist */,
 				78C100452CAB88D000DE625D /* Assets.xcassets */,
 				78C100472CAB88D000DE625D /* JobSimple.entitlements */,
 				78C100702CAB8A1E00DE625D /* AddJobView.swift */,
@@ -336,6 +339,7 @@
 			files = (
 				78C1004A2CAB88D000DE625D /* Preview Assets.xcassets in Resources */,
 				78C100462CAB88D000DE625D /* Assets.xcassets in Resources */,
+				78C100AE2CAB94B700DE625D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
